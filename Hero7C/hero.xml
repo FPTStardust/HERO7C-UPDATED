@@ -601,7 +601,7 @@
 		<nobePhantasm>
 			<type>B</type>
 			<name>誓约柠檬之剑</name>
-			<alter>Excalibur·Amanda</alter>
+			<alter>Excalibur Amanda</alter>
 			<level>对城宝具A</level>
 			<hit>1</hit>
 			<effect1>敌方全体Burst卡耐性下降（30|35|40|45|50，OC1~5）%，持续3回合。</effect1>
@@ -1451,13 +1451,13 @@
 		<!-- 基本属性 -->
 		<portCount>3</portCount>	
 		<class>Alter Ego</class>
-		<title>巨佬·宇婷·小可爱·副主席·主编·元帅</title>
+		<title>巨佬·宇婷·小可爱·副主席·主编·元帅·救世主</title>
 		<name>张锶钇</name>
 		<name_eng>Yttrium Strontium Zhang</name_eng>
 		<stella>金牛</stella>
 		<gender>女</gender>
 		<attribute>秩序·善</attribute>
-		<element>水·火·空</element>
+		<element>光·水·火·空</element>
 
 		<atk>11668</atk>
 		<hp>13965</hp>
@@ -1471,7 +1471,7 @@
 		<ability>CABXBXD</ability>
 		<extra_ability>视频D 平面A 文字A 歌唱A 辩论A 装逼EX 语言EEEEEX</extra_ability>
 
-		<remark>她是16级的传奇人物，</remark>
+		<remark>她是16级的传奇人物，聪明美丽活泼可爱的重度中二少女。</remark>
 
 <!-- 宝具 -->
 		<nobePhantasm>
@@ -1483,19 +1483,19 @@
 			<effect1>对敌方全体进行强力攻击(800|1000|1100|1150|1200，lv1~lv5)。</effect1>
 			<effect2>施放宝具时，每消耗(4|3.5|3|2.5|2，OC1~5)点NP，该宝具伤害提升1%。</effect2>
 			<effect3>自身攻击力下降20%，持续2回合。</effect3>
-			<remark>"所有时光永恒地像星星"，在空灵的梦境中，那些关于七彩神话的回忆，已然化作繁星。这里将这个概念具体化为强大的陨石术，类似于暗黑破坏神3里的"星尘契约"，将全身的魔力灌注于这一次攻击里，发出犹如行星撞击的威力。</remark>
+			<remark>有过接近死亡的经历，才能获得洞悉万物由产生到发展再到消亡的能力；</remark>
 		</nobePhantasm>
 		
 		<nobePhantasm>
 			<type>B</type>
-			<name>法尔西昂</name>
-			<alter>Falcion.</alter>
-			<level>对人宝具A</level>
-			<hit>10</hit>
-			<effect1>对敌方单体进行强力攻击(2000|2500|2750|2875|3000，lv1~lv5)。</effect1>
-			<effect2>对[神性]特攻，造成（200,211,222,233,240，OC1~5）%伤害。</effect2>
-			<effect3>该宝具需要消耗200NP。</effect3>
-			<remark>《一叶知秋》是星尘和好朋友唐灵一起写的小说，在假设七彩神话没有发生的基础上，描绘了一个更加温馨朴素的校园生活。对于重度妄想症的星尘而言，这也许是他曾想抛弃那些不切实际的虚妄执念的决心。然而随着年龄的增长，他反而开始怀念那个曾经"中二"的自己，那个无畏无惧，敢作敢为，不计代价地去创造奇迹与神话的"英雄"。</remark>
+			<name>誓约荣光之剑</name>
+			<alter>Excalibur Gloria.</alter>
+			<level>对城宝具A</level>
+			<hit>1</hit>
+			<effect1>神格为Mars时，我方全体Burst性能提升（30|35|40|45|50，OC1~5）%，持续3回合。</effect1>
+			<effect2>对敌方单体进行强力攻击(400|500|550|575|600，lv1~lv5)。</effect2>
+			<effect3>自身NP提升30。</effect3>
+			<remark>圣剑Excalibur有被称为王者之剑，只有被选为王的人，才有资格持有。在七彩神话的光辉已经逐渐在人们视野中逐渐暗淡时，她又重新拿起这把剑，让神话重现人间。与誓约柠檬之剑附带酸化攻击从而削弱敌人相反；她将圣剑与自身光魔法相结合，给与自身和队友信仰的力量。</remark>
 		</nobePhantasm>
 		
 		<nobePhantasm>
@@ -1516,7 +1516,7 @@
 		<skill>
 			<logo>83</logo>
 			<name>女神的华尔兹EX</name>
-			<CD>3~1</CD>
+			<CD>4~2</CD>
 			<effect1>神格切换为水星神Mercury。神格为Mercury时，Arts卡性能提升(10|12|14|16|18|20|22|24|26|30，lv1~lv10)%。</effect1>
 			<effect2>神格切换为火星神Mars。神格为Mars时，Buster卡性能提升(10|12|14|16|18|20|22|24|26|30，lv1~lv10)%。</effect2>
 			<effect3>神格切换为金星神Venus。神格为Venus时，Quick卡性能提升(10|12|14|16|18|20|22|24|26|30，lv1~lv10)%。</effect3>
@@ -1530,17 +1530,17 @@
 			<effect1>付与自身攻击力防御力提升(30|32|34|36|38|40|42|44|46|50，lv1~lv10)%，持续5回合</effect1>
 			<effect2>如果神格为Mars，则免疫所有弱体状态，持续5回合。</effect2>
 			<effect3>5回合后，眩晕2回合。</effect3>
-			<remark>在经历各种人生时所获得的，在遇到不同的处境的时候，都能够坚强地面对的心之盔甲，"ペルソナ！！"。人格面具的概念来源于荣格心理学，是指个人适应抑或他认为所采用的方式对付世界体系。人格面具不同于人格分裂，是一种适应的本能。这里星尘将于各种羁绊中领悟到的种种，抽象为22张塔罗牌。从愚者到世界，这是一个人的一生的各个阶段，也是大起大落地各种情感。由于人格面具的原因，星尘可以胜任各种职介和角色，所以这里默认以裁定者(RULER)的职介进行召唤。</remark>
+			<remark>即使感冒也不会有半步停歇，反而能开发出高于平时的潜能。由于该状态下消耗过大，不宜长时间保持，使用后要注意休息。</remark>
 		</skill>
 		
 		<skill>
 			<logo>25</logo>
-			<name>快速神言EEX</name>
+			<name>快速神言A</name>
 			<CD>7~5</CD>
-			<effect1>提升自身(100|120|140|160|180|200|220|240|260|300，lv1~lv10)的NP。</effect1>
-			<effect2>如果神格为Mercury</effect2>
-			<effect3></effect3>
-			<remark>不需要思考就可以一语惊人，说出的话很容易成为经典被人传颂。</remark>
+			<effect1>提升自身(30|33|36|39|42|45|48|51|54|60，lv1~lv10)的NP。</effect1>
+			<effect2>如果神格为Mercury，提升自身NP50。</effect2>
+			<effect3>如果神格为Venus，获得10颗暴击星。</effect3>
+			<remark>可以快速读出各种语言的音节，甚至压缩音节，从而提升使用咒语的速度和频率。</remark>
 		</skill>
 
 		
@@ -1561,10 +1561,17 @@
 			<effect1>暴击率提升10%。</effect1>
 			<effect2>神格为Venus时，暴击伤害提升50%。</effect2>
 			<effect3></effect3>
-			<remark>无论内在还是外在，都是女神一样的存在。处处引人瞩目，却也因此经常遇到意想不到的麻烦，仿佛总是处于不幸中。</remark>
+			<remark>总是一鸣惊人，出其不意，给人留下深刻的印象。</remark>
 		</pskill>
 		
-		
+		<pskill>
+			<logo>17</logo>
+			<name>平胸少女C</name>
+			<effect1>对节肢动物特攻，造成额外30%伤害。</effect1>
+			<effect2>神格为Mars时，自身伤害减免200。</effect2>
+			<effect3>神格为Mercury时，攻击附加5%的魅惑效果。</effect3>
+			<remark>曾经星尘所在的FPT战队，流传着平胸少女和龙虾的恩怨故事，以至于带有这个概念的人，在攻击虾兵蟹将的节肢动物时，都会产生附加效果。如果你还是看不懂怎么回事，记住，仰望就对了。</remark>
+		</pskill>
 
 
 		
