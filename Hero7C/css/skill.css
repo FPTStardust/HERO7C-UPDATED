@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.npname {
+	text-align: center;
+}
+
+.npename {
+	
+}
+
+.npcname {
+	font-size: 35px;
+	font-family: Arial, Kaiti, Microsoft Yahei;
+}
+
+.nptype {
+	position: relative;
+	top:6px;
+}
+
+
+.remark{
+	font-family: Arial, Kaiti,Microsoft Yahei;
+	margin:10px 0px;
+}
+.nplevel，.nphit {
+	font-weight: bold;
+}
+
+
+.skillname {
+	font-size: 25px;
+}
+
+.skicon{
+	position: relative;
+	top:6px;
+	height: 30px;
+}

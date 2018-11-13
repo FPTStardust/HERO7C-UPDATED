@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Fate Seven Colors</title>
+<link rel="icon" href="favicon.ico">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/baseinfo.css" rel="stylesheet" type="text/css">
+<link href="css/skill.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+
+</head>
+
+<body>
+
+<header>
+	<img src="img/Banner.png" height="150px;">
+</header>
+
+<aside id="aside">
+	<ul class="aside">
+		<li><img src="img/class/Ruler-G.png"> <a href="#tag=Liruoming" onClick="loadhero('Liruoming')">李若铭</a></li>
+		<li><img src="img/class/Saber-G.png"> <a href="#tag=Aimeng" onClick="loadhero('Aimeng')">艾濛</a></li>
+		<li><img src="img/class/Archer-G.png"> <a href="#tag=Chupengxiang" onClick="loadhero('Chupengxiang')">储鹏翔</a></li>
+		<li><img src="img/class/Archer-G.png"> <a href="#tag=Zhenglianjun" onClick="loadhero('Zhenglianjun')">郑莲君</a></li>
+		<li><img src="img/class/Caster-G.png"> <a href="#tag=Cuixinge" onClick="loadhero('Cuixinge')">崔馨戈</a></li>
+		<li><img src="img/class/Rider-G.png"> <a href="#tag=Wuyuhuan" onClick="loadhero('Wuyuhuan')">吴雨桓</a></li>
+		<li><img src="img/class/Caster-G.png"> <a href="#tag=Wusiyu" onClick="loadhero('Wusiyu')">吴思彧</a></li>
+		<li><img src="img/class/Assassin-G.png"> <a href="#tag=Kangguanyu" onClick="loadhero('Kangguanyu')">康冠宇</a></li>
+		<li><img src="img/class/Berserker-G.png"> <a href="#tag=Zhaoqiuchen" onClick="loadhero('Zhaoqiuchen')">赵秋辰</a></li>
+		<li><img src="img/class/Avenger-G.png"> <a href="#tag=Zhaotian" onClick="loadhero('Zhaotian')">赵湉</a></li>
+		<li><img src="img/class/Lancer-G.png"> <a href="#tag=Qinyiran" onClick="loadhero('Qinyiran')">秦一然</a></li>
+		<li><img src="img/class/Alterego-G.png"> <a href="#tag=Zhangsiyi" onClick="loadhero('Zhangsiyi')">张锶钇</a></li>
+		
+	</ul>
+</aside>
+
+<article id="article">
+	<div>
+	<div id="portrait" style="position: absolute"> 
+		<img id="portimg" title="点击切换卡面" src="img/card/Liruoming.jpg" width="260px" onClick="ChangePort()">
+	</div>
+	<div id="baseinfo" style="position: relative">
+		<div id="CL">
+		<span>Class: </span><span id="class"></span><br>
+		</div>
+		<hr>
+		<div>
+		<div class="refer">基<br>本<br>资<br>料</div>
+		
+		<div id="basicdata">
+		<div id="TI">称号：<span id="title"></span></div>
+		<div id="NA">
+			<div id="ename"></div>
+			<div id="name"></div>
+		</div>
+		<div id="HU">	
+			性别：<span id="gender"></span><br>
+			星座：<span id="stella"></span><br>
+			元素：<span id="element"></span><br>
+			属性：<span id="attribute"></span><br>
+		</div>
+		
+		<div id="CA">
+			<img src="img/icon/Art.png">
+			<img id="card2" src="img/icon/Art.png">
+			<img id="card3" src="img/icon/Burst.png">
+			<img id="card4" src="img/icon/Burst.png">
+			<img src="img/icon/Quick.png">
+		</div>
+		<div id="FO">
+			Hit数：<span id="hit"></span><br>
+			NP获取：<span id="getNP"></span><br>
+			暴击星掉落：<span id="getStar"></span><br>
+			暴击权重：<span id="critical"></span><br>
+		</div>
+		</div>
+		</div>
+		<div id="AT">
+			<div class="refer">
+				基<br>本<br>能<br>力
+			</div>
+			<div id="basicAbility">
+				<div>ATK: <span id="atk"></span> HP: <span id="hp"></span></div>
+				<div>
+					力量<img id="ab1i" src="img/icon/levelE.png"> <span id="ab1"></span>
+				</div>
+				<div>
+					魔力<img id="ab2i" src="img/icon/levelE.png"> <span id="ab2"></span>
+				</div>
+				<div>
+					敏捷<img id="ab3i" src="img/icon/levelE.png"> <span id="ab3"></span>
+				</div>
+				<div>
+					智慧<img id="ab4i" src="img/icon/levelE.png"> <span id="ab4"></span>
+				</div>
+				<div>
+					耐久<img id="ab5i" src="img/icon/levelE.png"> <span id="ab5"></span>
+				</div>
+				<div>
+					魅力<img id="ab6i" src="img/icon/levelE.png"> <span id="ab6"></span>
+				</div>
+				<div>
+					幸运<img id="ab7i" src="img/icon/levelE.png"> <span id="ab7"></span>
+				</div>
+			</div>
+		</div>
+		<div id="EA">
+			<div class="refer">附加能力</div>
+			<div id="eability"><br>
+			</div>
+			<hr>
+		</div>
+	</div>
+	</div>
+	
+	<div id="skills" style="margin-top: 5px">
+		<div class="head">传记
+			<audio id="audio" src="" loop></audio>
+			<span> &nbsp;♪</span>
+			<span id="play" onclick = "playMusic();" style="display: inline"><img src="img/button/play.png" height="35px"></span>			
+			<span id="pause" onclick = "playMusic();" style="display: none"><img src="img/button/pause.png" height="35px"></span>
+			<span id="stop" onclick = "stopMusic();"><img src="img/button/stop.png" height="35px"></span>
+		</div>
+		<div class="IF">	
+			<div id="remark" class="remark"> </div>
+		</div>
+		
+		<div class="head">宝具</div>
+		<div id="NP"></div>
+		
+		<div class="head">主动技能</div>
+		<div id="SK"></div>
+		
+		<div class="head">固有技能</div>
+		<div id="PA"></div>
+
+	</div>
+	
+	
+</article>
+
+</body>
+</html>

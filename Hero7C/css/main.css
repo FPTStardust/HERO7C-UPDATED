@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  font-family: sans-serif, Arial, Microsoft Yahei, Segoe, Verdana; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+	font-weight: lighter;
+}
+
+header {
+	position:absolute;
+	height: 150px;
+	background: #0D4449;
+	text-align: center;
+	border-bottom: #B8B8B8 medium solid;
+}
+
+body {
+  	margin: 0;
+	align-content: center;
+	background-color:#105156;
+}
+
+hr {
+	
+	background: #C8E5FF;
+	
+}
+
+aside {
+	width: 135px;
+	position:absolute;	
+	margin-top: 175px;
+}
+
+li{
+	list-style-type: none;
+}
+
+article {
+	color:#9DAAB7;
+	width:800px;
+	margin-top:175px;
+	margin-left: 145px;
+	position: absolute;
+	margin-bottom:50px;
+}
+
+.aside a{
+	text-decoration: none;
+	color:inherit;
+	position: relative;
+	top:-10px;
+}
+
+.aside li{
+	
+	border-left: thick,#A0A0A0;
+	border-left-style: solid;
+	font-weight: bold;
+	background: #001D29;
+	color: #A27F51;
+	height: 25px;
+	line-height: 30px;
+	margin-bottom: 4px;
+	
+}
+
+.aside img{
+	position: relative;
+	top:-2px;
+	height: 30px;
+	
+}
+
+#baseinfo {
+	left:280px;
+	height: 450px;
+	font-weight: bold;
+	width:520px;
+}
+
+.Startext {
+	font-size: 40px;
+	line-height: 60px;
+}
+
+.Startextsmall {
+	font-size: 25px;
+	line-height: 30px;
+}
+
+td {
+	align-content: center;
+}
+
+
+
+/* 技能说明间距统一设置 */
+#skills,.head,.IF{
+	margin-top: 8px;
+}
+
+/*统一宽度和背景颜色*/
+.IF {
+	background: #22656B;
+	width: 720px;
+	padding:5px 40px;
+}
+
+.IF ul{
+	padding: 0px;
+}
+
+.refer {
+	position: absolute;
+	color: #164246;
+	font-size: 35px;
+	z-index: -1;
+	font-weight: bold;	
+}
+
+.head {
+	color: #164246;
+	font-size: 35px;
+	font-weight: bold;
+	background: #22656B;
+}
+
+.IF ul{
+	margin: -5px 0px;
+}
+
+
+
