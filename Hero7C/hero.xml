@@ -1422,10 +1422,7 @@
 			<effect3></effect3>
 			<remark>曾经制作过许多偶像角色的模型，这里将idol对持续演出的执着化为重生的信念。不仅自己拥有，也要把这份心情分享给听到歌声的人。</remark>
 		</skill>
-		
-		
-
-		
+			
 	<!-- 固有技能 -->
 		<pskill>
 			<logo>4</logo>
@@ -1460,7 +1457,7 @@
 		<!-- 基本属性 -->
 		<portCount>3</portCount>	
 		<class>Alter Ego</class>
-		<title>巨佬·宇婷·小可爱·副主席·主编·元帅·救世主</title>
+		<title>巨佬·宇婷·小可爱·副主席·主编·元帅·救世主·et al</title>
 		<name>张锶钇</name>
 		<name_eng>Yttrium Strontium Zhang</name_eng>
 		<stella>金牛</stella>
@@ -1477,7 +1474,7 @@
 		<critical>102</critical>
 
 		<!-- 力量，魔力，敏捷，智慧，耐久，魅力，幸运 -->
-		<ability>CABXBXD</ability>
+		<ability>CCBBAAD</ability>
 		<extra_ability>视频D 平面A 文字A 歌唱A 辩论A 装逼EX 语言EEEEEX</extra_ability>
 
 		<remark>她是16级的传奇人物，聪明美丽活泼可爱的重度中二少女，带着救世主和君临天下的心行走世间，去寻找和创造属于自己的奇迹和神话。一次偶然的机会，她邂逅了七彩神话的故事，成为了初代宣传部的最后一名成员。她的人生从此重新定义，变得坚强勇敢，无畏无惧，带着自己的理想而不断前进。她是一名救世主，在自我救赎的过程中学会了拯救他人，想必世界一定会因为她的存在而掀起一番惊涛骇浪。模仿下木棉的一句话总结，不装逼不喜欢宣传部不搞排版不大声歌唱不十八国语言辩论不穿实验服游荡的科研萌妹子不是好巨佬。</remark>
@@ -1490,9 +1487,9 @@
 			<level>对界宝具EX</level>
 			<hit>1</hit>
 			<effect1>对敌方全体进行强力攻击(800|1000|1100|1150|1200，lv1~lv5)。</effect1>
-			<effect2>如果神格为Mercury，一定概率附带即死(4|3.5|3|2.5|2，OC1~5)点NP，该宝具伤害提升1%。</effect2>
+			<effect2>如果神格为Mercury，一定概率附带即死(50|62|75|87|100，OC1~5)%。</effect2>
 			<effect3>如果神格为Mercury，解除我方所有弱体状态。</effect3>
-			<remark>有过接近死亡的经历，才能获得洞悉万物由产生到发展再到消亡的能力；曾经空洞的内心，才能包容这个世界。</remark>
+			<remark>拥有接近死亡的经历，才能获得洞悉万物由产生到发展再到消亡的能力；拥有曾经空洞的内心，才能包容这个世界。在在与星尘创建不可锶钇的世界的过程中，她也明白了如何去恨，如何去爱。</remark>
 		</nobePhantasm>
 		
 		<nobePhantasm>
@@ -1509,17 +1506,16 @@
 		
 		<nobePhantasm>
 			<type>Q</type>
-			<name>星尘的秩序</name>
-			<alter>Khassar de Stardust.</alter>
-			<level>对灵能宝具C</level>
-			<hit>1</hit>
-			<effect1>对敌方单体进行强力攻击(1200|1400|1450|1475|1500，lv1~lv5)。</effect1>
-			<effect2>对[神性]特攻，造成（200,211,222,233,240，OC1~5）%伤害。</effect2>
-			<effect3>该宝具需要消耗200NP。</effect3>
-			<remark>。</remark>
+			<name>日月星辰的轨迹</name>
+			<alter>Star Burst Steam.</alter>
+			<level>对人宝具B</level>
+			<hit>15</hit>
+			<effect1>神格为Venus时，自身暴击星掉落提升（50,62,75,87,100，OC1~5）%，持续3回合。</effect1>
+			<effect2>对敌方单体进行强力攻击(1200|1400|1450|1475|1500，lv1~lv5)。</effect2>
+			<effect3>神格为Venus时，自身暴击星集中度提升400%，持续3回合。</effect3>
+			<remark>地球两端的距离，相比日月星辰，只不过沧海一粟。站在不同的大地上，看着同一片天空，看着日升月落，朝夕交错。离边，分开的是人与人的距离，拉近的是心与心的信任……</remark>
 		</nobePhantasm>
 		
-	
 <!-- 主动技能 -->
 		
 		<skill>
@@ -1529,17 +1525,17 @@
 			<effect1>神格切换为水星神Mercury。神格为Mercury时，Arts卡性能提升(10|12|14|16|18|20|22|24|26|30，lv1~lv10)%。</effect1>
 			<effect2>或者神格切换为火星神Mars。神格为Mars时，Buster卡性能提升(10|12|14|16|18|20|22|24|26|30，lv1~lv10)%。</effect2>
 			<effect3>或者神格切换为金星神Venus。神格为Venus时，Quick卡性能提升(10|12|14|16|18|20|22|24|26|30，lv1~lv10)%。</effect3>
-			<remark>似乎有轻度的人格分裂，在不同情况下会表现出不同的性格，具体化为象征了智慧（蓝色，Mercury），热情（红色，Mars），美丽（金色，Venus）的三位女神的形象。在不同神格的状态下，技能宝具的效果都会有变化。默认为Mercury状态。</remark>
+			<remark>似乎有轻度的人格分裂，在不同情况下会表现出不同的性格，具体化为象征了智慧（蓝色，Mercury），热情（红色，Mars），美丽（金色，Venus）的三位女神的形象。在不同神格的状态下，技能宝具的效果都会有变化。默认为Mercury状态。这也是她职介被选为极其罕见的Alter Ego的原因。</remark>
 		</skill>
 		
 		<skill>
-			<logo>9</logo>
-			<name>燃烧之心</name>
+			<logo>85</logo>
+			<name>燃烧之心B</name>
 			<CD>6~4</CD>
 			<effect1>付与自身攻击力防御力提升(30|32|34|36|38|40|42|44|46|50，lv1~lv10)%，持续5回合</effect1>
 			<effect2>如果神格为Mars，则免疫所有弱体状态，持续5回合。</effect2>
 			<effect3>5回合后，眩晕2回合。</effect3>
-			<remark>即使感冒也不会有半步停歇，反而能开发出高于平时的潜能。由于该状态下消耗过大，不宜长时间保持，使用后要注意休息。</remark>
+			<remark>即使感冒也不会有半步停歇，反而能开引导高于平时的潜能。由于该状态下消耗过大，不宜长时间保持，还是要注意休息。</remark>
 		</skill>
 		
 		<skill>
@@ -1549,7 +1545,7 @@
 			<effect1>提升自身(30|33|36|39|42|45|48|51|54|60，lv1~lv10)的NP。</effect1>
 			<effect2>如果神格为Mercury，提升自身NP50。</effect2>
 			<effect3>如果神格为Venus，获得10颗暴击星。</effect3>
-			<remark>可以快速读出各种语言的音节，甚至压缩音节，从而提升使用咒语的速度和频率。</remark>
+			<remark>具有高超的语言天赋，可以快速读出各种语言的音节，甚至压缩音节，从而提升使用咒语的速度和频率。</remark>
 		</skill>
 		
 		<skill>
@@ -1572,6 +1568,15 @@
 			<remark>永远保持着对世界的好奇心和浓厚的求知欲，不同人格对不同领域的知识的敏感度会有区别。</remark>
 		</skill>
 		
+		<skill>
+			<logo>89</logo>
+			<name>星之开拓者A</name>
+			<CD>8~6</CD>
+			<effect1>神格为Mars，自身HP恢复(3000|3200|3400|3600|3800|4000|4200|4400|4600|5000，lv1~lv10)。</effect1>
+			<effect2>神格为Mercury，赋予无敌贯通状态，持续3回合。</effect2>
+			<effect3>神格为Venus，获得暴击星10。</effect3>
+			<remark>星之开拓者指的是对人类历史科技进步有着巨大贡献的人，FGO原作里拥有此技能的是环游世界的弗朗西斯·德雷克，大发明家列奥纳多·达·芬奇和电磁学家尼古拉·特斯拉。虽然她的科研刚刚起步，但已经能看到不输于以上几位对人类的贡献的可能性了，希望以后能找到让她发挥的一片天地吧。</remark>
+		</skill>
 		
 		<!-- 固有技能 -->		
 		<pskill>
@@ -1580,11 +1585,11 @@
 			<effect1>付与自身伤害附加状态300。</effect1>
 			<effect2>弱化状态耐性提升30%。</effect2>
 			<effect3></effect3>
-			<remark>无论内在还是外在，都是女神一样的存在。然而由于总能引起了过多的关注，而容易招惹不幸的事情，所以表现出幸运很低的样子。其实她本人对自己的状态非常满意。</remark>
+			<remark>无论内在还是外在，都是女神一样的存在。然而由于总能引起了过多的关注，而容易招惹不幸的事情，所以表现出幸运很低的样子。其实她本人对自己的状态非常满意。看似复杂的她，本质上还是一个天真无邪的小可爱。</remark>
 		</pskill>
 		
 		<pskill>
-			<logo>17</logo>
+			<logo>88</logo>
 			<name>一鸣惊人EX</name>
 			<effect1>暴击率提升10%。</effect1>
 			<effect2>神格为Venus时，暴击伤害提升50%。</effect2>
@@ -1593,25 +1598,22 @@
 		</pskill>
 		
 		<pskill>
-			<logo>17</logo>
+			<logo>87</logo>
 			<name>平胸少女D</name>
 			<effect1>对节肢动物特攻，造成额外30%伤害。</effect1>
 			<effect2>神格为Mars时，自身伤害提升200。</effect2>
-			<effect3>神格为Mercury时，攻击附加5%的魅惑效果。</effect3>
+			<effect3>神格为Venus时，攻击附加5%的魅惑效果。</effect3>
 			<remark>星尘曾经所在的FPT战队，流传着平胸少女橘子和智障少年龙虾的恩怨故事；以至于带有这个概念的人，在攻击虾兵蟹将之类的节肢动物时，都会产生附加效果。如果你还是看不懂怎么回事，也没关系，仰望就对了。</remark>
 		</pskill>
 		
 		<pskill>
-			<logo>17</logo>
+			<logo>86</logo>
 			<name>七色花的祝福A</name>
-			<effect1>对节肢动物特攻，造成额外30%伤害。</effect1>
-			<effect2>神格为Mars时，自身伤害提升200。</effect2>
-			<effect3>神格为Mercury时，攻击附加5%的魅惑效果。</effect3>
-			<remark>那些花儿，是一切开始的地方，一个童话的序章。</remark>
+			<effect1>如果神格为Mercury，每回合回复5NP。</effect1>
+			<effect2>如果神格为Mars，每回合回复500HP</effect2>
+			<effect3></effect3>
+			<remark>那些花儿，是一切开始的地方，一个童话的序章。最美的回忆，引导着人们走向最美的未来。</remark>
 		</pskill>
-
-
-		
 		
 	</Zhangsiyi>
 </heros>
