@@ -163,7 +163,7 @@
 
 	<Zhenglianjun>
 	<!-- 基本属性 -->
-		<portCount>3</portCount>
+		<portCount>4</portCount>
 		<class>Archer</class>
 		<title>君姐·清紫玉·木棉</title>
 		<name>郑莲君</name>
@@ -448,7 +448,7 @@
 	
 	<Chupengxiang>
 		<!-- 基本属性 -->
-		<portCount>1</portCount>
+		<portCount>2</portCount>
 		<class>Archer</class>
 		<title>蒲公英·白隼</title>
 		<name>储鹏翔</name>
