@@ -201,6 +201,18 @@
 			<remark>用特定的语言对自己进行精神暗示("Trace On")，引导出黑莲花的力量，不仅强化了自身的战斗力，还获得了源源不断地能量。比起用魔力升成武器，这里更多地是将魔力用于强化自身的状态，类似于"梦蛇"的效果。</remark>
 		</nobePhantasm>
 		
+		<nobePhantasm>
+			<type>B</type>
+			<name>零式正义</name>
+			<alter>Gendum Zero Justice 1108.</alter>
+			<level>对城宝具A</level>
+			<hit>1</hit>
+			<effect1>自身HP上限提升（100|110|120|130|140，OC1~5）%，持续3回合。</effect1>
+			<effect2>自身ATK数值提升4000，获得2000伤害减免，持续3回合。</effect2>
+			<effect3>对敌方全体进行强力攻击(400|500|550|575|600，lv1~lv5)。</effect3>
+			<remark>莲的祖先曾铸造过各种各样的神兵利器，他们的技术与近代科学结合后，制造出了零式正义（Zero Justice）和自由星尘（Star Freedom）两个系列的Gendum骑神。其中的Justice 1108号就埋藏在博雅塔下，从塔后密道进入，一直下到地下六层，通过骑神的试炼之后，即可获得成为骑神的启动者。其中ZJ1108是启动零式正义骑神的密码。</remark>
+		</nobePhantasm>
+		
 		
 	<!-- 主动技能 -->
 		<skill>
@@ -1453,12 +1465,12 @@
 		
 	</Zhaoqiuchen>
 	
-	<Zhangsiyi>
+	<Zhangyuting>
 		<!-- 基本属性 -->
 		<portCount>3</portCount>	
 		<class>Alter Ego</class>
-		<title>巨佬·宇婷·小可爱·副主席·主编·元帅·救世主·et al</title>
-		<name>张锶钇</name>
+		<title>巨佬·锶钇·小可爱·副主席·主编·元帅·救世主·et al</title>
+		<name>张宇婷</name>
 		<name_eng>Yttrium Strontium Zhang</name_eng>
 		<stella>金牛</stella>
 		<gender>女</gender>
@@ -1468,8 +1480,8 @@
 		<atk>11668</atk>
 		<hp>13965</hp>
 		<card>AABBQ</card>
-		<hit>A2|B4|Q3|EX5</hit>
-		<getNP>0.83|4</getNP>
+		<hit>A2|B4|Q3|EX1</hit>
+		<getNP>0.93|4</getNP>
 		<getstar>10%</getstar>
 		<critical>102</critical>
 
@@ -1589,12 +1601,30 @@
 		</pskill>
 		
 		<pskill>
+			<logo>90</logo>
+			<name>终极闪光FL</name>
+			<effect1>打出BAQEX连击时，同时获得三个神格效果，持续2回合，且本次EX攻击伤害提升50%且视为触发暴击。</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>Fiat Lux！是UCLA的校训，这里象征着宇婷终于找回自己，将保护自己的三个神格融合，以人类的力量，发挥出超越神的终极一击。</remark>
+		</pskill>
+		
+		<pskill>
 			<logo>88</logo>
 			<name>一鸣惊人EX</name>
 			<effect1>暴击率提升10%。</effect1>
 			<effect2>神格为Venus时，暴击伤害提升50%。</effect2>
-			<effect3></effect3>
+			<effect3>神格为Mars时，普通攻击伤害提升20%</effect3>
 			<remark>总是一鸣惊人，出其不意，给人留下深刻的印象。所到之处无人不知无人不晓。</remark>
+		</pskill>
+		
+		<pskill>
+			<logo>91</logo>
+			<name>成环C</name>
+			<effect1>神格为Mercury，NP获取率提升15%。</effect1>
+			<effect2>神格为Mars，处于必中状态。</effect2>
+			<effect3>神格为Venus，暴击星掉落率提升15%</effect3>
+			<remark>因和裴老师关系非常好，所以虽然身处无机组，却很熟悉成环的那套理论。这里体现为，无论获取NP还是暴击星掉落，产率都会有所提高。C并不是技能等级，而是Cyclize的首字母。</remark>
 		</pskill>
 		
 		<pskill>
@@ -1615,5 +1645,5 @@
 			<remark>那些花儿，是一切开始的地方，一个童话的序章。最美的回忆，引导着人们走向最美的未来。</remark>
 		</pskill>
 		
-	</Zhangsiyi>
+	</Zhangyuting>
 </heros>
